@@ -20,7 +20,7 @@ class ContentList extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(vertical: 6.0,),
+          padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 6.0),
           child: Text(
             title,
             style: const TextStyle(
