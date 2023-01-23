@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
         preferredSize: Size(screenSize.width, 50.0),
         child: BlocBuilder<AppBarCubit, double>(
           builder: (context, scrollOffSet) {
-            return CustomAppBar(scrollOffSet: scrollOffSet);
+            return CustomAppBar(scrollOffset: scrollOffSet);
           },
         ),
       ),
